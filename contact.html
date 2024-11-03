@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Semantik HTML dan Flexbox</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Dasar Bahasa Pemrograman</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="home.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <article>
+            <h2>Kontak Kami</h2>
+            <p>Jika Anda memiliki pertanyaan, silakan hubungi kami melalui form di bawah ini:</p>
+            
+            <form action="#" method="post">
+                <label for="name">Nama:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="message">Pesan:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                
+                <input type="submit" value="Kirim">
+            </form>
+        </article>
+
+        <!-- Sidebar -->
+        <aside>
+            <h2>Informasi Kontak</h2>
+            <p><strong>Email:</strong> info@website.com</p>
+            <p><strong>Telepon:</strong> +62 123 456 789</p>
+            <p><strong>Alamat:</strong> Jl. Contoh No. 123, Jakarta, Indonesia</p>
+        </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Website Projek Akhir Dicoding</p>
+    </footer>
+
+</body>
+</html>
